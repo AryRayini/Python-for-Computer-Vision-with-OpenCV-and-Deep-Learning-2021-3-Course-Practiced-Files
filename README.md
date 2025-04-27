@@ -25,6 +25,9 @@ show_pic(img)
 ```
 > cv2.adaptiveThreshold : this will look into neighberhood pixels to make the changes 
 
+26- blurring and smoothing images: it will help to reduce the noise, or help a computer vision application to focus on details. **blurring and moothing** always combined with *edge detection*. edge detection algorithm detects too many edges when a high resolution picture shows up without any blurring.
+**gamma correction** : this will help to make the picture brighter or darker.
+**kernel based filters** : kernel filters are some matrices and they will apply some mathematic operation to pixels to make the new image. 
 
 
 > **Note:** The "DATA" folder is assets for the whole progress.

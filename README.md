@@ -6,4 +6,18 @@ These files serve as my personal notes and hands-on practice to solidify my unde
 - In [3 - Image Basics with OpenCV](Files/3%20-%20Image%20Basics%20with%20OpenCV)  , I learned how to open images using the cv2 module of the OpenCV library, along with other operations such as opening images, changing color formats, copying images, flipping images, and adding shapes like rectangles, circles, and polygons.
 Finally, I wrote code to open an image and draw a circle on it, as well as another piece of code that opens a window where you can draw a rectangle.
 
+25- image thresholding:
+> cv2.threshold
+> a function to show images in customized size 
+```
+def show_pic(img):
+    fig = plt.figure(figsize=(15,15))
+    ax = fig.add_subplot(111)
+    ax.imshow(img,cmap='gray'
+```
+```
+show_pic(img)
+```
+
+
 > **Note:** The "DATA" folder is assets for the whole progress.

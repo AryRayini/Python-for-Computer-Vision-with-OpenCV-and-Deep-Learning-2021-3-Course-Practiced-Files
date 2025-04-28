@@ -13,12 +13,12 @@ Finally, I wrote code to open an image and draw a circle on it, as well as anoth
 25- image thresholding:
 > itroduction to: cv2.threshold , first of all you turn image into gray. then you try using threshold to add some effect on image.
 
-> a function to show images in customized size: 
+> a function to show images in customized size (this will display image a little larger): 
 ```
 def show_pic(img):
     fig = plt.figure(figsize=(15,15))
     ax = fig.add_subplot(111)
-    ax.imshow(img,cmap='gray'
+    ax.imshow(img,cmap='gray')
 ```
 ```
 show_pic(img)
@@ -29,5 +29,15 @@ show_pic(img)
 **gamma correction** : this will help to make the picture brighter or darker.
 **kernel based filters** : kernel filters are some matrices and they will apply some mathematic operation to pixels to make the new image. 
 
+27- we use brick image because it is easy to see outline of each brick.
+> if you choose a gamma value less than 1, then you make the picture brighter. example : 1/4
+```
+gamma = 1/4
+# to effect the image we use np.power. also power is related to the same power in math.
+# it's trying to increase the value of power of pixels by the power, and power comes from gamma variable.
+result = np.power(i,gamma) 
+display_img(result)
+```
+ 
 
 > **Note:** The "DATA" folder is assets for the whole progress.

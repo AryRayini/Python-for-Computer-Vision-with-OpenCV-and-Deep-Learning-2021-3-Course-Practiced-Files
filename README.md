@@ -29,7 +29,8 @@ show_pic(img)
 **gamma correction** : this will help to make the picture brighter or darker.
 **kernel based filters** : kernel filters are some matrices and they will apply some mathematic operation to pixels to make the new image. 
 
-27- we use brick image because it is easy to see outline of each brick.
+27- **blurring**: blurring is used to blur images if they are noisy or reduce the image detail to detect edges better. we use brick image because it is easy to see outline of each brick.
+
 > if you choose a gamma value less than 1, then you make the picture brighter. example : 1/4
 ```
 gamma = 1/4
@@ -60,10 +61,11 @@ median = cv2.medianBlur(noise_img,5)
 display_img(median)
 ```
 ```
+# bilateral
 blur = cv2.bilateralFilter(img, 9,75,75)
 display_img(blur)
 ```
-
 **there are many ways to make a blur img and things like this, it's guess and check most of the time**
+
 
 > **Note:** The "DATA" folder is assets for the whole progress.

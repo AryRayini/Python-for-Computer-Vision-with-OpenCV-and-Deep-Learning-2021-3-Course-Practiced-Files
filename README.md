@@ -38,6 +38,15 @@ gamma = 1/4
 result = np.power(i,gamma) 
 display_img(result)
 ```
- 
+
+> *Blurring* : first we make a kernel. then we apply a 2D filter on it.
+```
+kernel = np.ones(shape = (5,5),dtype = np.float32)/25
+```
+```
+# -1 means input depth is the same as output depth
+dst = cv2.filter2D(img , -1,kernel)
+display_img(dst)
+```
 
 > **Note:** The "DATA" folder is assets for the whole progress.

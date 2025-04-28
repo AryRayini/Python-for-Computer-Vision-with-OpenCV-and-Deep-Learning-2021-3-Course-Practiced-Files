@@ -48,5 +48,22 @@ kernel = np.ones(shape = (5,5),dtype = np.float32)/25
 dst = cv2.filter2D(img , -1,kernel)
 display_img(dst)
 ```
+> *blurring gaussian and median methods*:
+```
+# guassian
+blurred_img = cv2.GaussianBlur(img,(5,5),10)
+display_img(blurred_img)
+```
+```
+# median
+median = cv2.medianBlur(noise_img,5)
+display_img(median)
+```
+```
+blur = cv2.bilateralFilter(img, 9,75,75)
+display_img(blur)
+```
+
+**there are many ways to make a blur img and things like this, it's guess and check most of the time**
 
 > **Note:** The "DATA" folder is assets for the whole progress.

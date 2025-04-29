@@ -67,5 +67,43 @@ display_img(blur)
 ```
 **there are many ways to make a blur img and things like this, it's guess and check most of the time**
 
+28-  **morphological operators** : this is sets of kernels that can achieve a variety of effects, such as reducing noise. certain operators are very good at reducing black points on a white background ( and vice versa )
+
+*Erode* :
+```
+this will erode edges.
+result = cv2.erode(img,kernel,iterations= 4)
+```
+*Opening* : 
+```
+# using opening ( morphological operator ) to get rid of this noise 
+opening = cv2.morphologyEx(noise_img,cv2.MORPH_OPEN,kernel)
+```
+*closing*: 
+```
+# closing 
+closing = cv2.morphologyEx(black_noise_img,cv2.MORPH_CLOSE,kernel)
+```
+*morphological gradient*:
+```
+gradient = cv2.morphologyEx(img,cv2.MORPH_GRADIENT,kernel)
+```
+
+
+> *Most used codes around the projects* : 
+```
+# imports
+import cv2 
+import numpy as np
+import matplotlib.pyplot as plt
+```
+```
+# img loadmentory
+ def load_img():
+     blank_img = np.zeros((600,600))
+     font = cv2.FONT_HERSHEY_SIMPLEX
+     cv2.putText(blank_img,text = 'ABCDE' , org = (50,300) , fontFace = font , fontScale = 5 , color = (255,255,255),thickness = 4)
+     return blank_img
+```
 
 > **Note:** The "DATA" folder is assets for the whole progress.

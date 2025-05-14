@@ -106,5 +106,7 @@ import matplotlib.pyplot as plt
      cv2.putText(blank_img,text = 'ABCDE' , org = (50,300) , fontFace = font , fontScale = 5 , color = (255,255,255),thickness = 4)
      return blank_img
 ```
+38 : Drawing Shape on live video ( this technique will be used on obj detection ) 
+
 
 > **Note:** The "DATA" folder is assets for the whole progress.

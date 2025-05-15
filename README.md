@@ -113,7 +113,9 @@ import matplotlib.pyplot as plt
 38 : Drawing Shape on live video ( this technique will be used on obj detection ) 
 </details>
 
-- In [5 - Video Basics with Python and OpenCV](Files/5%20-%20Video%20Basics%20with%20Python%20and%20OpenCV)
+- In [5 - Video Basics with Python and OpenCV](Files/5%20-%20Video%20Basics%20with%20Python%20and%20OpenCV) i experienced how to open camera and record and save it or opening a saved video and even drawing on a live camera. it was a easy and simple section!
+
+
 
 
 > **Note:** The "DATA" folder is assets for the whole progress.

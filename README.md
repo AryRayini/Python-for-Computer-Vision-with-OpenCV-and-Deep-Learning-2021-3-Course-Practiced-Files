@@ -1,4 +1,4 @@
-# Python for Computer Vision with OpenCV and Deep Learning 2021-3 **Course Practiced Files**
+# My Practices on Computer Vision
 
 These files serve as my personal notes and hands-on practice to solidify my understanding of computer vision. 
 

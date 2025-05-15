@@ -7,7 +7,8 @@ These files serve as my personal notes and hands-on practice to solidify my unde
 - In [3 - Image Basics with OpenCV](Files/3%20-%20Image%20Basics%20with%20OpenCV)  , I learned how to open images using the cv2 module of the OpenCV library, along with other operations such as opening images, changing color formats, copying images, flipping images, and adding shapes like rectangles, circles, and polygons.
 Finally, I wrote code to open an image and draw a circle on it, as well as another piece of code that opens a window where you can draw a rectangle.
 
-- In [4 - Image Processing](Files/4%20-%20Image%20Processing)
+- In [4 - Image Processing](Files/4%20-%20Image%20Processing) , We've learnt about color mappings, blending images, image thresholding, blurring and smoothing images to find edges better,
+morphological operators, gradient and histogram and histogram equalization.
 <details>
   <summary>Click to expand!</summary>
     23- blending and pasting images: 
@@ -111,6 +112,8 @@ import matplotlib.pyplot as plt
 ```
 38 : Drawing Shape on live video ( this technique will be used on obj detection ) 
 </details>
+
+- In [5 - Video Basics with Python and OpenCV](Files/5%20-%20Video%20Basics%20with%20Python%20and%20OpenCV)
 
 
 > **Note:** The "DATA" folder is assets for the whole progress.

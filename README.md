@@ -115,7 +115,15 @@ import matplotlib.pyplot as plt
 
 - In [5 - Video Basics with Python and OpenCV](Files/5%20-%20Video%20Basics%20with%20Python%20and%20OpenCV) i experienced how to open camera and record and save it or opening a saved video and even drawing on a live camera. it was a easy and simple section!
 
+- In
 
+<details>
+  <summary>Click to expand!</summary>
+  42- Template Matching: we find our "x" data using "y" data. we can use these methods: 
+  ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR','cv2.TM_CCORR_NORMED', 'cv2.TM_SQDIFF', 'cv2.TM_SQDIFF_NORMED']
+
+  43- Corner detection: we will look at some of the most popular algorithms: 1- harris corner detection 2- shi-tomasi corner detection
+</details>
 
 
 > **Note:** The "DATA" folder is assets for the whole progress.

@@ -122,7 +122,11 @@ import matplotlib.pyplot as plt
   42- Template Matching: we find our "x" data using "y" data. we can use these methods: 
   ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR','cv2.TM_CCORR_NORMED', 'cv2.TM_SQDIFF', 'cv2.TM_SQDIFF_NORMED']
 
-  43- Corner detection: we will look at some of the most popular algorithms: 1- harris corner detection 2- shi-tomasi corner detection
+  43 & 44- Corner detection: we will look at some of the most popular algorithms: 1- harris corner detection 2- shi-tomasi corner detection
+
+  45 - edge detection : in this lecture we learn how to work with canny edge detector which is one of the most popular edge detection algorithms. it developed in 1986 by john canny and it's multi-stage algorithm (A multi-stage algorithm is a method that solves a problem through a sequence of steps or stages, where the solution at one stage depends on the results of the previous stages. It breaks down a complex problem into simpler subproblems, solves them step-by-step, and combines these solutions to get the final answer). *the first step is to apply gaussian filter to smooth image in order to remove noise. in the next step we apply non-maximum suppression to get rid of suprious response to edge detection.*
+
+  
 </details>
 
 

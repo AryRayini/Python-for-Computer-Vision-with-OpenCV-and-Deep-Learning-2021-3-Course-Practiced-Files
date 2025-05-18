@@ -127,6 +127,7 @@ import matplotlib.pyplot as plt
   45 - edge detection : in this lecture we learn how to work with canny edge detector which is one of the most popular edge detection algorithms. it developed in 1986 by john canny and it's multi-stage algorithm (A multi-stage algorithm is a method that solves a problem through a sequence of steps or stages, where the solution at one stage depends on the results of the previous stages. It breaks down a complex problem into simpler subproblems, solves them step-by-step, and combines these solutions to get the final answer). *the first step is to apply gaussian filter to smooth image in order to remove noise. in the next step we apply non-maximum suppression to get rid of suprious response to edge detection. then apply double threshold to determine potential edges. then it will finalize the detection of edges by supperssing all the other edges that are weak and not connected to strong edges.**note:** for high resolution images when you only want general edges, it is usually a good idea to apply a custom blur before applying the canny algorithm. also this algorithm requires a user to decide on low and high threshold values.*
 
   45 - grid detection : this is often used for camera calibration.
+  47 - contour detection : contours are a useful tool for shape analysis and object detection and recognition.
  
   
 </details>

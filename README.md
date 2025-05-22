@@ -115,7 +115,7 @@ import matplotlib.pyplot as plt
 
 - In [5 - Video Basics with Python and OpenCV](Files/5%20-%20Video%20Basics%20with%20Python%20and%20OpenCV) i experienced how to open camera and record and save it or opening a saved video and even drawing on a live camera. it was a easy and simple section!
 
-- In
+- In [6 - Object Detection with OpenCV and Python](6%20-%20Object%20Detection%20with%20OpenCV%20and%20Python)
 
 <details>
   <summary>Click to expand Section 5!</summary>

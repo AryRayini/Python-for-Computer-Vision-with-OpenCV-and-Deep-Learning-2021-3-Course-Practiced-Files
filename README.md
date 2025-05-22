@@ -10,7 +10,7 @@ Finally, I wrote code to open an image and draw a circle on it, as well as anoth
 - In [4 - Image Processing](Files/4%20-%20Image%20Processing) , We've learnt about color mappings, blending images, image thresholding, blurring and smoothing images to find edges better,
 morphological operators, gradient and histogram and histogram equalization.
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Click to expand Section 4!</summary>
     23- blending and pasting images: 
 > cv2.addWeighted : this is used to blend two image on each other (opacity)
 
@@ -118,13 +118,16 @@ import matplotlib.pyplot as plt
 - In
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Click to expand Section 5!</summary>
   42- Template Matching: we find our "x" data using "y" data. we can use these methods: 
   ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR','cv2.TM_CCORR_NORMED', 'cv2.TM_SQDIFF', 'cv2.TM_SQDIFF_NORMED']
 
   43 & 44- Corner detection: we will look at some of the most popular algorithms: 1- harris corner detection 2- shi-tomasi corner detection
 
   45 - edge detection : in this lecture we learn how to work with canny edge detector which is one of the most popular edge detection algorithms. it developed in 1986 by john canny and it's multi-stage algorithm (A multi-stage algorithm is a method that solves a problem through a sequence of steps or stages, where the solution at one stage depends on the results of the previous stages. It breaks down a complex problem into simpler subproblems, solves them step-by-step, and combines these solutions to get the final answer). *the first step is to apply gaussian filter to smooth image in order to remove noise. in the next step we apply non-maximum suppression to get rid of suprious response to edge detection. then apply double threshold to determine potential edges. then it will finalize the detection of edges by supperssing all the other edges that are weak and not connected to strong edges.**note:** for high resolution images when you only want general edges, it is usually a good idea to apply a custom blur before applying the canny algorithm. also this algorithm requires a user to decide on low and high threshold values.*
+
+  45 - grid detection : this is often used for camera calibration.
+  47 - contour detection : contours are a useful tool for shape analysis and object detection and recognition.
  
   
 </details>

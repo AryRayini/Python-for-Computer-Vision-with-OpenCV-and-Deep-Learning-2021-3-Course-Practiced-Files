@@ -119,7 +119,7 @@ import matplotlib.pyplot as plt
 
 
 <details>
-  <summary>Click to expand Section 5!</summary>
+  <summary>Click to expand Section 6!</summary>
   42- Template Matching: we find our "x" data using "y" data. we can use these methods: 
   ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR','cv2.TM_CCORR_NORMED', 'cv2.TM_SQDIFF', 'cv2.TM_SQDIFF_NORMED']
 

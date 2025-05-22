@@ -128,6 +128,7 @@ import matplotlib.pyplot as plt
 
   45 - grid detection : this is often used for camera calibration.
   47 - contour detection : contours are a useful tool for shape analysis and object detection and recognition.
+  
  
   
 </details>

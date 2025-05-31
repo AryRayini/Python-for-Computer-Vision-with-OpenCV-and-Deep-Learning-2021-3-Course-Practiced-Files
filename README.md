@@ -1,3 +1,4 @@
+https://github.com/user-attachments/assets/077d66d2-effb-4656-b36f-e4c1b6ea6cf6
 # My Practices on Computer Vision
 
 These files serve as my personal notes and hands-on practice to solidify my understanding of computer vision. 
@@ -115,10 +116,11 @@ import matplotlib.pyplot as plt
 
 - In [5 - Video Basics with Python and OpenCV](Files/5%20-%20Video%20Basics%20with%20Python%20and%20OpenCV) i experienced how to open camera and record and save it or opening a saved video and even drawing on a live camera. it was a easy and simple section!
 
-- In
+- In [6 - Object Detection with OpenCV and Python](6%20-%20Object%20Detection%20with%20OpenCV%20and%20Python) started learning template matching which you can find a object in image using piece of that object as a image. after that i learnt how to detect corners using harris corner detection algorithm and after that i learnt how to work with shitomasi corner detection algorithm ( goodfeaturestotrack ). head to the next episode, i learned how to detect edges ( you better make the images a little blur tho ). next one was grid detection. after that we met contour detection, there were two expression called : 1- inner contour and 2- external contour ( inner is the things inside of object and external is the round of object ). next part we exprienced feature matching, it has two algorithm, 1- ORB match detector 2-SIFT detector, by using these algorithms you can find the key parts on a image and then find the target on another image.
+
 
 <details>
-  <summary>Click to expand Section 5!</summary>
+  <summary>Click to expand Section 6!</summary>
   42- Template Matching: we find our "x" data using "y" data. we can use these methods: 
   ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR','cv2.TM_CCORR_NORMED', 'cv2.TM_SQDIFF', 'cv2.TM_SQDIFF_NORMED']
 
@@ -128,6 +130,7 @@ import matplotlib.pyplot as plt
 
   45 - grid detection : this is often used for camera calibration.
   47 - contour detection : contours are a useful tool for shape analysis and object detection and recognition.
+  
  
   
 </details>

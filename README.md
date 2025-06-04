@@ -130,6 +130,8 @@ import matplotlib.pyplot as plt
 
   45 - grid detection : this is often used for camera calibration.
   47 - contour detection : contours are a useful tool for shape analysis and object detection and recognition.
+  48 & 49 - feature matching : with feature matching you will find the key part of a image from another similar image and you match them.
+  50 51 52 - watershed algorithm : with that we segmentate the image.
   
  
   

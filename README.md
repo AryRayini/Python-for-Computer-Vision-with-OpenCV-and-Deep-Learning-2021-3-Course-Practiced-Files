@@ -1,6 +1,8 @@
 https://github.com/user-attachments/assets/077d66d2-effb-4656-b36f-e4c1b6ea6cf6
 
 https://github.com/user-attachments/assets/bf767f45-ced2-4267-82a9-cd31dc337945
+
+https://github.com/user-attachments/assets/d0d468ac-be6d-40a6-8ddc-749ee86fa4ad
 # My Practices on Computer Vision
 
 These files serve as my personal notes and hands-on practice to solidify my understanding of computer vision. 

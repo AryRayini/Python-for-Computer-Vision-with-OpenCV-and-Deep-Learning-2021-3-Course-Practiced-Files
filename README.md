@@ -140,6 +140,6 @@ import matplotlib.pyplot as plt
   
 </details>
 
-- In [7 - Object Tracking](7%20-%20Object%20Tracking) it was the time to witness the optical flow. optical flow is a kind of way to track objects. there were two optical flow algorithm. 1- **Lucas-Kenade (Sparse optical flow )** 2- **Gunner Fanreback's (Dense Optical Flow)**
+- In [7 - Object Tracking](7%20-%20Object%20Tracking) it was the time to witness the optical flow. optical flow is a kind of way to track objects. there were two optical flow algorithm. 1- **Lucas-Kenade (Sparse optical flow )** 2- **Gunner Fanreback's (Dense Optical Flow)**. after that we moved on **CamShift** and **MeanShift**.
 
 > **Note:** The "DATA" folder is assets for the whole progress.

@@ -122,7 +122,6 @@ import matplotlib.pyplot as plt
 
 - In [6 - Object Detection with OpenCV and Python](6%20-%20Object%20Detection%20with%20OpenCV%20and%20Python) started learning template matching which you can find a object in image using piece of that object as a image. after that i learnt how to detect corners using harris corner detection algorithm and after that i learnt how to work with shitomasi corner detection algorithm ( goodfeaturestotrack ). head to the next episode, i learned how to detect edges ( you better make the images a little blur tho ). next one was grid detection. after that we met contour detection, there were two expression called : 1- inner contour and 2- external contour ( inner is the things inside of object and external is the round of object ). next part we exprienced feature matching, it has two algorithm, 1- ORB match detector 2-SIFT detector, by using these algorithms you can find the key parts on a image and then find the target on another image.
 
-
 <details>
   <summary>Click to expand Section 6!</summary>
   42- Template Matching: we find our "x" data using "y" data. we can use these methods: 
@@ -136,10 +135,9 @@ import matplotlib.pyplot as plt
   47 - contour detection : contours are a useful tool for shape analysis and object detection and recognition.
   48 & 49 - feature matching : with feature matching you will find the key part of a image from another similar image and you match them.
   50 51 52 - watershed algorithm : with that we segmentate the image.
-  53 - Face Detection :  
-  
+
 </details>
 
-- In [7 - Object Tracking](7%20-%20Object%20Tracking) it was the time to witness the optical flow. optical flow is a kind of way to track objects. there were two optical flow algorithm. 1- **Lucas-Kenade (Sparse optical flow )** 2- **Gunner Fanreback's (Dense Optical Flow)**. after that we moved on **CamShift** and **MeanShift**.
+- In [7 - Object Tracking](7%20-%20Object%20Tracking) it was the time to witness the optical flow. optical flow is a kind of way to track objects. there were two optical flow algorithm. 1- **Lucas-Kenade (Sparse optical flow )** 2- **Gunner Fanreback's (Dense Optical Flow)**. after that we moved on **CamShift** and **MeanShift**. also we worked with some Object Tracking API's that OpenCV represents.
 
 > **Note:** The "DATA" folder is assets for the whole progress.
